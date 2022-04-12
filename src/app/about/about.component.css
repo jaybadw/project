@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    min-height:80vh;
+    background:url("https://images.pexels.com/photos/6406/sun-moon-eclipse-march-2015.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-size:2.6vw;
+    text-transform: uppercase;
+    margin-bottom: 2.4vw;
+    padding-top: 6vw;
+
+ }
+.about-section{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+
+.contact-info{
+    color:#fff;
+    max-width:500px;
+    line-height:65px;
+    padding-left:50px;
+    font-size:18px;
+}
+.contact-info i{
+    margin-right:20px;
+    font-size: 25px;
+}
+.contact-form h2{
+    color:white;
+    text-align: center;
+    font-size:35px;
+    text-transform: uppercase;
+    margin-bottom: 3vw;
+    margin-top: -3vw;
+    }
+    .contact-form .text-box{
+        background: white;
+        color:#fff;
+        border:none;
+        width:calc(50%-10px);
+        height:50px;
+        font-size:15px;
+        border-radius:5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        margin-bottom:20px;
+        opacity:0.9;
+        margin-right:20px;
+        
+    }
+
+    .contact-form .text-box:first-child{
+        margin-right:20px;
+    }
+
+    .contact-form textarea{
+        background: white;
+        color:#fff;
+        border: none;
+        width:80%;
+        padding:12px;
+        font-size:15px;
+        min-height: 200px;
+        max-height: 400px;
+        resize: vertical;
+        border-radius:5px;
+        margin-right:0;
+
+    }
+   .send-btn{
+       padding: 0.2vw 0.4vw;
+       margin-bottom: 2vw;
+   }

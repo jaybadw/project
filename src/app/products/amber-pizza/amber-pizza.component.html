@@ -1,0 +1,20 @@
+<div class="bodycontainer">
+    <div class="buttoncontainer">
+   <button [routerLink]="'/deliveryOptions'" routerLinkActive="active" class="button button1">Jays burgers</button>
+   <button [routerLink]="'/amberPizza'" routerLinkActive="active" class="button button2">Amber Pizza</button>
+   <button [routerLink]="'/wraps'" routerLinkActive="active" class="button button3">Red</button>
+   <button routerLinkActive="active" class="button button4">Gray</button>
+   <button class="button button5">Black</button>
+   </div>
+     <div class="container3">
+       <h3> make your order</h3>
+       <div class="row">
+         <div class="card" *ngFor="let pizza of pizzaz">
+           <img src="{{pizza.productImage}}" style="height:60%; width: 95%;">
+           <h4>{{[pizza.productName]}}</h4> 
+           <h5>{{pizza.productPrice |currency: 'JMD':'symbol-narrow'}}</h5>
+           
+           <a href="#" class="btn1"> add to cart</a>
+        </div>
+       </div>
+       <section>
